@@ -5,5 +5,5 @@ let component = ReasonReact.statelessComponent("Greeting");
 
 let make = (~name, _children) => {
   ...component,
-  render: (_self) => <button> {ReasonReact.string("Hello " ++ name ++ "!")} </button>
+  render: (_self) => <div> {ReasonReact.string("Hello " ++ name ++ "!")} </div>
 };
