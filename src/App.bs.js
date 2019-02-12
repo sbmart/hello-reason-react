@@ -22,7 +22,7 @@ function make(_children) {
           /* willUpdate */component[/* willUpdate */7],
           /* shouldUpdate */component[/* shouldUpdate */8],
           /* render */(function (_self) {
-              return React.createElement("div", undefined, React.createElement("h1", undefined, "ReasonML + ReasonReact + GraphQL"));
+              return React.createElement("div", undefined, React.createElement("h2", undefined, "ReasonML + ReasonReact + GraphQL"));
             }),
           /* initialState */component[/* initialState */10],
           /* retainedProps */component[/* retainedProps */11],

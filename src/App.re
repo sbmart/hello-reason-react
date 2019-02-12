@@ -5,6 +5,6 @@ let make = _children => {
   ...component,
   render: _self => 
     <div> 
-      <h1> {"ReasonML + ReasonReact + GraphQL" |> str} </h1>
+      <h2> {"ReasonML + ReasonReact + GraphQL" |> str} </h2>
     </div>
 };
